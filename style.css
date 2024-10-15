@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: "Passion One";
+    font-size: 70px;
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+}
+
+header > a:hover{
+    text-decoration: underline;
+}
+
+
+main p{
+    width: 300px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+section{
+    height: 500px;
+    align-content: center;
+    padding-left: 25px;
+}
+
+.sessao{
+    height: 700px;
+    padding: 35px;
+}
+
+#fundo1{
+    background-image: url("arquivos/imagens/background001.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 8px 0px black;
+}
+
+#fundo2{
+    background-image: url("arquivos/imagens/background002.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 8px 0px black;
+}
+
+#fundo1 > p{
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    padding: 10px;
+}
+
+#fundo2 > p{
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
